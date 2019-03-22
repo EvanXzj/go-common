@@ -17,3 +17,17 @@ func ExampleReverse() {
 }
 
 // -------END-------
+
+// -----------------
+// file.go
+// -----------------
+
+func ExampleIsFile() {
+	fmt.Println(common.IsFile("file.go"))
+	fmt.Println(common.IsFile("fake_path"))
+	// Output:
+	// true
+	// false
+}
+
+// -------END-------
